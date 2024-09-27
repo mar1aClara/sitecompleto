@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos serviços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/cabeçalho.png" alt="cabeçalho">
+    </header>
+
+    <section>
+        <nav>
+            <a href="index.html" >Página Inicial</a>
+            <a href="produtos.html" id="paginaAberta">Confira nossos serviços</a>
+            <a href="contatos.html">Fale Conosco</a>
+            <a href="quiz.html">Quiz</a>
+        </nav>
+    </section>
+
+    <main>
+        <section class="espaco" id="fundoBranco">
+            <h2>Busque um toque a mais na sua estadia:</h2>
+            <div class="carrossel">
+                <div class="slides">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/407753874.jpg?k=5cc0c0c91221bad35ecaae554949998e414cbe66161d8c4eb4bba6dbd36bee5f&o=&hp=1" alt="vista para o mar">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/497215156.jpg?k=7d6fd813e4e9def1e3408249009a2d7be12e734cf60cf62c1a15afc390abc41d&o=&hp=1" alt="piscina">
+                    <img src="https://sentidosdoviajar.com/wp-content/uploads/2019/05/capim-do-mato-pousada-e-spa-servico-quarto-file_Easy-Resize.com_.jpg" alt="spa">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/407753585.jpg?k=655552dc3b31143930e55ca54a592cc589413b751c309f88478ca0c99f8f4428&o=&hp=1" alt="">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/572879483.jpg?k=40f930c95596a20ccabce811cba5f0e5416ccbf76be3b540ec38a49c60577c53&o=&hp=1" alt="">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/525472234.jpg?k=6f7632ab85e8fda6868c55738ee85782e8631622237a7d806e5e70e919e0fb65&o=&hp=1" alt="">
+                    <img src="https://kalani-pousada.hotelsantacatarina.com/data/Images/OriginalPhoto/15538/1553868/1553868100/image-praia-do-rosa-kalani-pousada-11.JPEG" alt="">
+                    <img src="https://www.carpemundi.com.br/wp-content/uploads/2021/06/pousada-meu-talento.jpg" alt="">
+                    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/224699290.jpg?k=77fe15d23d54bcd7b0c288c86d3898c498d83def2a33f3377335e1191c27831e&o=&hp=1" alt="">
+                    <img src="https://moradabadenbaden.com.br/wp-content/uploads/2022/10/BadenBaden-Blog-Hotel-Pousada-Bombinhas.jpg" alt="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIum9LxdglcexpdCrfBBkL_-carR2_ZbG4fg&s" alt="">
+                </div>
+                <button class="prev" id="seta" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" id="seta" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="parceria">
+            <img src="https://a.travel-assets.com/travel-assets-manager/ceorg1202-hcom-secretpricesdeals/HCOM_SecretPricesDeals_Version_3_hero_1856x796_20220812.jpg?impolicy=fcrop&w=1400&h=600&q=mediumHigh" alt="">
+            
+            <div class="texto">
+                <h2>Conheça nossos apoiadores:</h2>
+                <p>Economizam, em média, 10% em milhares de hotéis do Brasil com nossas parcerias.</p>
+                <div id="btn-b1">
+                    <a href="https://www.hoteis.com/"><button id="b1">Visite agora</button></a> 
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="espaco">
+            <h2>Confira algumas de nossas pousadas!</h2>
+
+            <div id="video1">
+                <ul class="slide">
+                   <li>
+                       <input type="radio" id="slide1" name="slide" checked>
+                       <label for="slide1"></label>
+                       <img src="img/Pousada1.jpg" />
+                   </li>
+                   <li>
+                       <input type="radio" id="slide2" name="slide">
+                       <label for="slide2"></label>
+                       <img src="img/pousada2.jpg" />
+                   </li>
+                   <li>
+                       <input type="radio" id="slide3" name="slide">
+                       <label for="slide3"></label>
+                       <img src="img/pousada3.jpg" />
+                   </li>
+                   <li>
+                       <input type="radio" id="slide4" name="slide">
+                       <label for="slide4"></label>
+                       <img src="img/pousada4.jpg" />
+                   </li>
+                   <li>
+                       <input type="radio" id="slide5" name="slide">
+                       <label for="slide5"></label>
+                       <img src="img/pousada5.jpg" />
+                   </li>
+                   <li>
+                       <input type="radio" id="slide6" name="slide">
+                       <label for="slide6"></label>
+                       <img src="img/pousada6.jpg" />
+                   </li>
+                   <li>
+                       <input type="radio" id="slide7" name="slide">
+                       <label for="slide7"></label>
+                       <img src="img/pousada7.jpg" />
+                   </li>
+                   <li>
+                       <input type="radio" id="slide8" name="slide">
+                       <label for="slide8"></label>
+                       <img src="img/pousada8.webp" />
+                   </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <div id="video2">
+            <section class="novo"><iframe width="560" height="315" poster="img/pousada2.jpg" src="https://www.youtube.com/embed/qemqQHaeCYo?si=oAOrbliBPZCx4_T4" allowfullscreen></iframe></section>
+        </div>
+
+    </main>
+</body>
+    <script src="script.js"></script>
+</html>

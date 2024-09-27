@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>QUIZ</title>
+</head>
+<body>
+    <header>
+        <img src="img/cabeçalho.png" alt="cabeçalho">
+    </header>
+    <section>
+        <nav>
+            <a href="index.html" >Página Inicial</a>
+            <a href="produtos.html">Confira nossos serviços</a>
+            <a href="contatos.html">Fale Conosco</a>
+            <a href="quiz.html" id="paginaAberta">Quiz</a>
+        </nav>
+    </section>
+
+    <section class="quiz-section">
+        <h2 id="margimBotom">Confira o que você sabe sobre a nossa empresa?</h2>
+        <form id="quiz-form">
+
+            <section class="question">
+                <h3>1. O que Marbella oferece?</h3>
+                <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playSound()">A) Maquiagens</label><br>
+                <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()">B) Delivery e entregas de comidas</label><br>
+                <label><input type="radio" name="q1" value="C" onclick="disableOptions('q1'), playSound()">C) Serviços de hospedagem em hotéis e pousadas</label><br>
+                <label><input type="radio" name="q1" value="D" onclick="disableOptions('q1'), playSound()">D) Design de interiores</label><br>
+                <label><input type="radio" name="q1" value="E" onclick="disableOptions('q1'), playSound()">E) Produtos capilares</label>
+            </section>
+
+            <section class="question2">
+                <h3>2. Qual é o nome da praia que inspirou a criação de Marbella?</h3>
+                <label><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playSound()">A) Praia da Costa del Sol </label><br>
+                <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()">B) Fernando de Noronha</label><br>
+                <label><input type="radio" name="q2" value="C" onclick="disableOptions('q2'), playSound()">C) Praia dos Carneiros</label><br>
+                <label><input type="radio" name="q2" value="D" onclick="disableOptions('q2'), playSound()">D) Ilhas Seychelles</label><br>
+                <label><input type="radio" name="q2" value="E" onclick="disableOptions('q2'), playSound()">E) Ilhas Turcas</label>
+            </section>
+
+            <section class="question3">
+                <h3>3. Com o passar do tempo, evoluimos e criamos laços com pessoas da região. Quem eram?</h3>
+                <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playSound()">A) Grandes empresários </label><br>
+                <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()">B) Criminosos e integrantes de máfias</label><br>
+                <label><input type="radio" name="q3" value="C" onclick="disableOptions('q3'), playSound()">C) Artesãos e agricultores</label><br>
+                <label><input type="radio" name="q3" value="D" onclick="disableOptions('q3'), playSound()">D) Pedreiros</label><br>
+                <label><input type="radio" name="q3" value="E" onclick="disableOptions('q3'), playSound()">E) Vendedores ambulantes</label>
+            </section>
+
+            <section class="question4">
+                <h3>4. Qual é nossa missão?</h3>
+                <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playSound()">A) Enrriquecer e dominar uma grande franquia de hotéis e hospedagens. </label><br>
+                <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()">B) Competir com outros grandes nomes nessa área.</label><br>
+                <label><input type="radio" name="q4" value="C" onclick="disableOptions('q4'), playSound()">C) Acumular o máximo de imóveis ao redor do mundo</label><br>
+                <label><input type="radio" name="q4" value="D" onclick="disableOptions('q4'), playSound()">D) Só ganhar dinheiro</label><br>
+                <label><input type="radio" name="q4" value="E" onclick="disableOptions('q4'), playSound()">E) Proporcionar experiências memoráveis e acolhedoras</label>
+            </section>
+
+            <section class="question5">
+                <h3>5. Qual é a principal função da recepção em um hotel?</h3>
+                <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playSound()">A) Gestão de eventos</label><br>
+                <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()">B) Atendimento e check-in/check-out dos hóspedes</label><br>
+                <label><input type="radio" name="q5" value="C" onclick="disableOptions('q5'), playSound()">C) Limpeza dos quartos</label><br>
+                <label><input type="radio" name="q5" value="D" onclick="disableOptions('q5'), playSound()">D) Nenhum desses</label><br>
+                <label><input type="radio" name="q5" value="E" onclick="disableOptions('q5'), playSound()">E) Manutenção da piscina</label>
+            </section>
+
+            <section class="question6">
+                <h3>6. Qual é o termo utilizado para descrever a taxa diária cobrada por um quarto em um hotel?</h3>
+                <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playSound()">A) Comissão</label><br>
+                <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()">B) Lucro</label><br>
+                <label><input type="radio" name="q6" value="C" onclick="disableOptions('q6'), playSound()">C) Tarifa</label><br>
+                <label><input type="radio" name="q6" value="D" onclick="disableOptions('q6'), playSound()">D) Demanda</label><br>
+                <label><input type="radio" name="q6" value="E" onclick="disableOptions('q6'), playSound()">E) Nenhum desses</label>
+            </section>
+
+            <section class="question7">
+                <h3>7. O que significa o termo "pensão completa" em um hotel?</h3>
+                <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playSound()">A) Somente almoço incluído</label><br>
+                <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()">B) Somente refeições leves incluídas</label><br>
+                <label><input type="radio" name="q7" value="C" onclick="disableOptions('q7'), playSound()">C) Somente café da manhã e jantar incluídos</label><br>
+                <label><input type="radio" name="q7" value="D" onclick="disableOptions('q7'), playSound()">D) Café da manhã incluído</label><br>
+                <label><input type="radio" name="q7" value="E" onclick="disableOptions('q7'), playSound()">E) Café da manhã, almoço e jantar incluídos</label>
+            </section>
+
+            <section class="question8">
+                <h3>8. Qual é a importância da classificação por estrelas em hotéis?</h3>
+                <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playSound()">A) Indica a quantidade de quartos disponíveis</label><br>
+                <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()">B) Define o preço padrão dos quartos</label><br>
+                <label><input type="radio" name="q8" value="C" onclick="disableOptions('q8'), playSound()">C) Avalia a qualidade e os serviços oferecidos</label><br>
+                <label><input type="radio" name="q8" value="D" onclick="disableOptions('q8'), playSound()">D)  Indica a localização do hotel</label><br>
+                <label><input type="radio" name="q8" value="E" onclick="disableOptions('q8'), playSound()">E) Nenhum desses</label>
+            </section>
+
+            <section class="question9">
+                <h3>9. Em um sistema de reservas, o que é um "overbooking"?</h3>
+                <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playSound()">A) Cancelamento de reservas em massa</label><br>
+                <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()">B) Reserva confirmada sem pagamento</label><br>
+                <label><input type="radio" name="q9" value="C" onclick="disableOptions('q9'), playSound()">C) Venda de mais quartos do que a capacidade do hotel</label><br>
+                <label><input type="radio" name="q9" value="D" onclick="disableOptions('q9'), playSound()">D) Reserva antecipada para eventos</label><br>
+                <label><input type="radio" name="q9" value="E" onclick="disableOptions('q9'), playSound()">E) Nenhum desses</label>
+            </section>
+
+            <section class="question10">
+                <h3>10. Qual é o papel do concierge em um hotel?</h3>
+                <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playSound()">A) Realizar o check-in dos hóspedes</label><br>
+                <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()">B) Auxiliar hóspedes com informações e serviços personalizados</label><br>
+                <label><input type="radio" name="q10" value="C" onclick="disableOptions('q10'), playSound()">C) Limpar as áreas comuns do hotel</label><br>
+                <label><input type="radio" name="q10" value="D" onclick="disableOptions('q10'), playSound()">D) Gerenciar a contabilidade do hotel</label><br>
+                <label><input type="radio" name="q10" value="E" onclick="disableOptions('q10'), playSound()">E) Nenhum desses</label>
+            </section>
+
+
+            <button type="button" onclick="submitQuiz()" id="enviar" class="b2">Enviar Respostas</button>
+            <button type="button" onclick="responderNovamente()" id="reiniciar" class="b2" disabled>Responder Novamente</button>
+
+        </form>
+
+        <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+        <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+        <audio id="perdeusom" src="som/perdeu.mp3" preload="auto"></audio>
+
+        <section id="result"></section>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
