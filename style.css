@@ -54,10 +54,25 @@ nav a:hover{
     padding: 45px; 
 }
 
-.primeiro{
-    width: calc(100%-60px);
-    text-align: justify;
+#historia{
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
+
+.primeiro{
+    /* width: calc(100%-60px); */
+    text-align: justify;
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+
+
 
 p{
     /* line-height: 25px; */
@@ -77,126 +92,9 @@ h2{
 
 /* -----------------------------------------------------------------------------*/
 
-.slide img{
-    margin: auto;
-    height: 300px;
-    width: 500px;
-}
-
-/*
-
-.slide li {
-    list-style: none;
-    margin-top: 5%;
-   
-}
-
-.slide img {
-    margin: auto;
-    height: 300px;
-    width: 500px;
-    vertical-align: top;
-    margin-top: 20px;  
-    position: absolute;
-    left: 5%;
-    right: 5%;
-    top: 5%;
-    bottom: 5%;
-    width: 90%;
-    height: 90%;
-    border-radius: 15px;
-} 
-
-.slide input {
-    display: none;
-}
-
-.slide label {
-    background-color: #000;
-    bottom: 10px;
-    cursor: pointer;
-    display: inline;
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    z-index: 10;
-    
-}  */
-
-.slide { 
-    height: auto;
-    width: calc(40% - 20px);
-    margin: auto;
-    margin-top: 20px;
-    position: relative; 
-    background-color: var(--cor1);
-
-    margin: 10px;
-    position: relative;
-    padding: 120px; 
-    border-radius: 15px;
-}
-
-/* .slide li {
-    list-style: none;
-    position: absolute; 
-} */
-
-.slide li img {
-    margin: 0;
-    height: auto;
-    width: calc(40% - 20px);
-    /* vertical-align: top; */
-}
-
-.slide input {
-    display: none;
-}
-
-/* .slide label {
-    background-color: #000;
-    cursor: pointer;
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    margin-right: 10px; 
-    z-index: 10; */
-    /* background-color: #000;
-    bottom: 10px;
-    cursor: pointer;
-    display: inline;
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    z-index: 10; */
-/* } */
-
-.slide {
-    position: relative; /* Certifique-se de que o contêiner da slide tenha position relative */
-}
-
-.slide label {
-    background-color: #000;
-    cursor: pointer;
-    display: inline-block; /* Altera para inline-block */
-    height: 10px;
-    width: 10px;
-    margin-right: 10px; /* Espaçamento entre os labels */
-    z-index: 10;
-}
-
-.slide li {
-    display: flex; /* Usando flexbox para alinhar os labels */
-    justify-content: flex-start; /* Alinhamento à esquerda */
-}
-
-.slide img {
-    opacity: 0;
-    visibility: hidden;
-}
 
 
-.slide li:nth-child(1) label {
+/* .slide li:nth-child(1) label {
     left: 10px;
 }
 
@@ -226,45 +124,16 @@ h2{
 
 .slide li:nth-child(8) label {
     left: 220px;
-}
-
-.slide img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slide li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}
-
-
-
-
-/* #video2{
-    background-color: var(--cor1);
-    margin: 10px 0px;
-    position: relative;
-    padding-bottom: 50%; 
-    border-radius: 15px;
-}
+} */
 
 #video2 iframe{
     margin: auto;
-    /* height: 300px;
-    width: 500px;
-    vertical-align: top;
-    margin-top: 20px;  */
-    /* position: absolute; */
-    /* left: 5%;
-    right: 5%;
-    top: 5%; */
-    /* bottom: 5%; */
-    /* width: 90%;
-    height: 90%;
-    border-radius: 15px;
-}  */
+    display: flex;
+    background-color: var(--cor1);
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 50px;
+} 
 
 
 #fundoBranco{
